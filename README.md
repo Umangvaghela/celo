@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Installation Guide
 
-1) Install NodeJS
+1 ) Install NodeJS
 
 2 ) Install TypeScript
 
