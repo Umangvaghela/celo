@@ -11,6 +11,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 3 ) Install Angular CLI (Angular command line interface) 
 
     -- npm install -g @angular/cli
+4 ) http://localhost:4200/   copy link and paste in chrome, mozila or any browser: its works    
     
 ## Development server
 
