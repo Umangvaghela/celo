@@ -1,6 +1,6 @@
-# Udemyangularassignment1
+# CELO
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0
 
 ## Development server
 
