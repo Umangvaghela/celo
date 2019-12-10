@@ -1,0 +1,22 @@
+[req]
+default_bits = 2048
+prompt = no
+default_md = sha256
+x509_extensions = v3_req
+distinguished_name = dn
+
+[dn]
+C = NZ
+ST = CN
+L = Christchurch
+O = Umang
+OU = study
+emailAddress = webmaster@www.umang.com
+CN = www.umang.com
+
+[v3_req]
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1 = *.www.umang.com
+DNS.2 = www.umang.com

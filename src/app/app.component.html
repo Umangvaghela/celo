@@ -1,0 +1,47 @@
+
+  <!-- <app-deshboard></app-deshboard>
+  <p><app-user [name]="rootName" (nameChanged)="OnNameChanged($event)"></app-user></p>
+  <p><app-cart-component [item]= "rootItem" (addItem)="OnItemwasadded($event)"></app-cart-component></p>
+  <button (click) = "IncreaseNumber()" class="btn btn-primary">IncreaseNumber</button>
+  <p>{{ number }}</p> -->
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+          <!--<app-header-component></app-header-component>!-->
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <div class="container">  
+    <div class="row">
+      <div class="randomuser" >
+          <div clas="master-view" >
+              <h2> <strong> Master-List: </strong> </h2>
+              <img src="{{ userprofile }}">
+              <div class="summary-user" >
+                  <p>{{ userTitle }}  {{ name }} {{ lastname }} </p> 
+              </div>
+          </div>
+          <div class="list-view">
+            <h2><strong> List View </strong></h2>
+            <p> <strong> Location : </strong><p>
+              <p> County : {{ country }}</p> 
+              <p> City: {{ city }}</p> 
+              <p> State: {{ state }}</p> 
+              <p> PostCode: {{ postcode }}</p> 
+            <p><strong> Pesonal Information: </strong></p> 
+              <p> <img src="{{ userfullimage }}"></p>
+              <p> UserEmail: {{ email }}</p> 
+              <p>Contact: {{ phone }}</p> 
+              <p>Age: {{ userage }}</p>  
+              <p>Age: {{ registeredAge }}</p> 
+          </div>
+      </div>
+      <div class="col-sm-12">
+          <!-- <app-tabs></app-tabs> -->
+         <!----<router-outlet></router-outlet>!-->
+      </div>
+    </div>
+  </div>
+  
+  
